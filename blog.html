@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+  <head>
+    <title>Blog</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Anton">
+
+  </head>
+<body>
+  <div class="dropdown">
+    <div class="menu icon"></div>
+    <div class="dropdown-content">
+      <a href="index.html">main</a>
+      <a href="blog.html">blog</a>
+    </div>
+  </div>
+    <div class="header ">
+    <h2>reflections on process</h2>
+  </div>
+  <div class="flex-container">
+    <div></div>
+    <div>
+     <h2>Triptych</h2>
+     <h5>Apr 12, 2022</h5>
+     <p>I made a thing with html and css.</p>
+     <p>It is representative of another thing, which is a little outside my practice.</p>
+     <p>I had fun making the thing.</p>
+     <p>I initially wanted to make shapes and animate them. I was particularly (more than) inspired by the work of Hélio Oiticica and Alejandro Otero.</p>
+     <p>After learning that triptychs have historically been used to depict religious scenes, I decided to represent Las Tres Potencias, which is the top court in the marialioncero cult from Venezuela. It seemed like a good fit for the assignment, as I was originally thinking very abstractly about it but having some kind of intention allowed me to focus my energies and inspiration with an idea.</p>
+     <p>The first panel was the first I worked on. This is very obviously inspired by Hélio Oiticica’s work. I made a grid of squares using :nth-child() so that I could animate and style each square differently.</p>
+     <p>The second panel has a radial gradient background (kind of like a saint’s aura…) and a number of circles with different inset box-shadows. The animation is just rotating these circles so that the inset box-shadows are what rotate.</p>
+     <p>The third panel has been the most difficult to accomplish. Perhaps I was too attached to my original idea to use stripes in different directions as a homage to Alejandro Otero’s work. How can I put a grid of stripes in one direction on top of a grid of stripes in a different direction? But also, how does that fit the very specific figure I’m trying to represent?</p>
+     <p>After a few failed attempts I decided to make an egg and put it under stripes. This was still a difficult task. I was using the same method I used for the first panel, which was a grid that had to have relative positioning, I just adjusted the widths and the heights. But placing the egg under it was a matter of using z-index -1. A nice solution to the problem which ate up a substantial chunk of my time.</p>
+     <p>Still, I struggled to animate the egg’s background, which is also a radial gradient (perhaps those couldn’t be animated?) so I added another inset box-shadow because I have already successfully animated those.</p>
+     <p>However, none of that worked. I was completely stumped. There was nothing I can do to animate that egg! and then I found the missing bracket in the code! fucking hell. Now I had the egg doing ALL the things and it was definitely too much… plus, why did I want the egg behind the bars??? </p>
+     <p>After making some needed editing choices and revisiting my first impulse to create some horizontal lines behind the vertical ones, I arrived at a panel that feels ok to me.</p>
+     <p>For the background, I “created” (borrowed) a pattern with absolute positioning and a negative z-index. Using a pattern was an idea that Brandon shared and although it took me quite a bit of tries to understand what was happening with the code, I finally made something work.</p>
+     <p>The egg is looking a bit HAL 9000 to me, but there’s supposed to be a party in there -like light coming through skin-, so I’m going to leave it as is.</p>
+     <h4>Some rabbit holes I went down…</h4>
+     <p>I looked into working with audio but none of the examples Brandon shared worked on my browsers. The gist of those examples was to play a sound on hover or click but hiding the audio element. As these did not work, my option was to put in an audio element that plays a file… This does not appeal to me in general (as a user) but also as a creator. I’m not that excited about fixed media unless it is process oriented… but live processing of sound is exciting to me. high risk, high reward, right? something like that. Anyway, it wasn’t necessary, so I didn’t use it (my attitude is definitely different for visual stuff where I mostly go for things “because I can”).</p>
+     <p>I did start to look at aural stylesheets, which supersede screen reader’s settings. This is interesting to me. I don’t necessarily want to start fucking with the settings of screen reader’s users (that seems rude) but to be able to use it to speak code aloud is cool, especially if that can be manipulated. The main reason I did not play with it for this assignment was that a screen reader is needed. That kind of extra step seems a bit much… maybe there are ways to use synthesized speech without the need of a screen reader (research next!)</p>
+       <p>I’m a sucker for speech as well as text in art. The inspiration that Brandon shared by Andreas Gysin was very cool. I’m intrigued by the possibilities…</p>
+    </div>
+    <div></div>
+
+  </div>
+</body>

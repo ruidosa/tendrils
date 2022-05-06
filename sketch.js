@@ -59,7 +59,7 @@ function setup() {
   //fill(10);
 
   // say hello:
-		myVoice.speak('testing one two three!!!');
+	//	myVoice.speak('testing one two three!!!');
 
 }
 
